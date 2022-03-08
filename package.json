@@ -1,0 +1,24 @@
+{
+  "name": "hands-on-express-csrf",
+  "version": "1.0.0",
+  "description": "This application is a demonstration prototype just to show how to perform CSRF attacks.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "0xdbe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xdbe/Hands-on-Express-CSRF/issues"
+  },
+  "homepage": "https://github.com/0xdbe/Hands-on-Express-CSRF#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "pug": "^2.0.4",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {}
+}

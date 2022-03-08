@@ -1,0 +1,13 @@
+head
+  title Hands-on
+  link(rel="stylesheet",type="text/css",href="style.css")
+
+form(method='POST' action='/order')
+  div.form-group
+    label(for='Recipient') Recipient:
+    input#recipient.form-control(type='text', name='recipient')
+  div.form-group
+    label(for='Amount') Amount:
+    input#amount.form-control(type='text', name='amount')
+    
+  button.btn.btn-primary(type='submit') Confirm

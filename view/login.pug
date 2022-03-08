@@ -1,0 +1,14 @@
+head
+  title Hands-on
+  link(rel="stylesheet",type="text/css",href="style.css")
+
+form(method='POST' action='/login')
+  div.form-group
+    label(for='name') Username:
+    input#name.form-control(type='text', name='username')
+  div.form-group
+    label(for='pw') Password:
+    input#pw.form-control(type='password' name='password')
+  button.btn.btn-primary(type='submit') Log in
+  
+p(class='error') #{message}
