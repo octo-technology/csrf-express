@@ -1,5 +1,5 @@
 {
-  "name": "Hands-on Express CSRF",
+  "name": "CSRF Express",
   "description": "This application is a demonstration prototype just to show how to perform CSRF attacks.",
   "repository": "https://github.com/0xdbe-appsec/csrf-express",
   "keywords": ["node", "express", "csrf"]
