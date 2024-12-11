@@ -1,7 +1,8 @@
 // CSRF
 
-// Define TCP port
+// Define TCP host and port
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || '127.0.0.1';
 
 // Import from Node.js standard library
 const fs = require('fs');
@@ -172,4 +173,4 @@ app.post('/order', (req, res) => {
 });
 
 // Start Application
-app.listen(PORT, '0.0.0.0', () => console.log('app listening on 3000'));
+app.listen(PORT, HOST, () => console.log(`app is listening on http://${HOST}:${PORT}`));

@@ -21,7 +21,7 @@ $ npm install
 * Start application
 
 ```console
-$ node app.js
+$ npm start
 ```
 
 * Expose app via reverse proxy with HTTPS
